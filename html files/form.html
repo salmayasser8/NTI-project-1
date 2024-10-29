@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+    <form action="web.html">
+        <div>
+            <label>Username </label>
+            <input type="text" placeholder="Write a correct Username" name="user" autofocus>
+        </div>
+        <br>
+        <div>
+            <label> Password</label>
+            <input type="password" placeholder="write a correct password" required name="pass" minlength="7"
+                maxlength="10">
+        </div>
+        <br>
+        <div>
+            <label> Email</label>
+            <input type="email" required placeholder="Write a coorect email" name="mail">
+        </div>
+        <br>
+        <input type="color" name="color">
+        <input type="range" min="0" max="100" step="10" value="0" name="range">
+        <input type="number" min="10" max="100" step="10" name="num">
+        <div>
+            <label>Upload</label>
+            <input type="file" multiple>
+        </div>
+        <br>
+        <div>
+            <label>search </label>
+            <input type="search">
+            <label> URL</label>
+            <input type="url">
+        </div>
+        <br>
+        <div>
+            <input id="win" type="radio" name="os" value="Windows" checked>
+            <label for="win">Windows</label>
+        </div>
+        <div>
+            <input id="lin" type="radio" name="os" value="linix">
+            <label for="lin">linux</label>
+        </div>
+        <div>
+            <input id="mac" type="radio" name="os" value="mac">
+            <label for="mac">Mac</label>
+        </div>
+        <div>
+            <hr>
+            <div>
+                <input id="1" type="checkbox" name="skill" value="Html">
+                <label for="1">Html</label>
+            </div>
+            <div>
+                <input id="2" type="checkbox" name="skill" value="css">
+                <label for="2">CSS</label>
+            </div>
+            <div>
+                <input id="3" type="checkbox" name="skill" value="Js">
+                <label for="3">Js</label>
+            </div>
+            <br>
+            <select name>
+                <option value="Egypt"> Egypt</option>
+                <option value="japan">japan</option>
+                <option value="us">us</option>
+            </select>
+
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="save">
+            <input type="reset" value="Delete">
+        </div>
+        <br>
+        <textarea placeholder="text here"></textarea>
+    </form>
+</body>
+
+</html>
